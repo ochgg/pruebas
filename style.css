@@ -34,3 +34,16 @@
     }
   }
   
+
+  @media (max-width: 320px) {
+    .navbar-brand {
+      font-size: 1rem;
+      margin-right: 0;
+    }
+    
+    .navbar-expand-md .navbar-nav .nav-link {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+  
