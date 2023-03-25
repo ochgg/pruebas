@@ -1,0 +1,36 @@
+@media (min-width: 320px) {
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    
+    .form-control {
+      width: 100%;
+    }
+    
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    
+    .col-md-4 {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
+  
+  @media (min-width: 320px) {
+    form {
+      max-width: 1200px;
+    }
+  }
+  
