@@ -1,0 +1,20 @@
+.btn-google-play, .btn-app-store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-google-play img, .btn-app-store img {
+    margin-right: 10px;
+    height: 36px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .btn-google-play, .btn-app-store {
+      font-size: 18px;
+    }
+  
+    .btn-google-play img, .btn-app-store img {
+      height: 28px;
+    }
+  }
